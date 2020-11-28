@@ -17997,20 +17997,20 @@ general purpose rectifier, 1 A</description>
 <parts>
 <part name="IC1" library="40xx" library_urn="urn:adsk.eagle:library:80" deviceset="4093" device="N" package3d_urn="urn:adsk.eagle:package:820/2" value="4093"/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="050-025X075" package3d_urn="urn:adsk.eagle:package:23637/1" value="1uf"/>
-<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="050-025X075" package3d_urn="urn:adsk.eagle:package:23637/1" value=".1uf"/>
-<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="050-025X075" package3d_urn="urn:adsk.eagle:package:23637/1"/>
+<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="050-025X075" package3d_urn="urn:adsk.eagle:package:23637/1" value="0.1uf"/>
+<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="050-025X075" package3d_urn="urn:adsk.eagle:package:23637/1" value="0.1uf"/>
 <part name="IC2" library="linear3" deviceset="*567" device="N" technology="LM" value="LM567"/>
 <part name="PH1" library="photo-elements" library_urn="urn:adsk.eagle:library:323" deviceset="VT9" device="" package3d_urn="urn:adsk.eagle:package:22209/1" technology="0N1" value=""/>
 <part name="PH2" library="photo-elements" library_urn="urn:adsk.eagle:library:323" deviceset="VT9" device="" package3d_urn="urn:adsk.eagle:package:22209/1" technology="0N1" value=""/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="22k"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="22k"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="22k"/>
-<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="050-025X075" package3d_urn="urn:adsk.eagle:package:23637/1" value=".1uf"/>
+<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="050-025X075" package3d_urn="urn:adsk.eagle:package:23637/1" value="0.1uf"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="1k"/>
 <part name="PH3" library="photo-elements" library_urn="urn:adsk.eagle:library:323" deviceset="VT9" device="" package3d_urn="urn:adsk.eagle:package:22209/1" technology="0N1" value=""/>
 <part name="R5" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="EVU" device="L" package3d_urn="urn:adsk.eagle:package:22736/1" technology="F2" value=""/>
-<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="050-025X075" package3d_urn="urn:adsk.eagle:package:23637/1" value=".1uf"/>
+<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="050-025X075" package3d_urn="urn:adsk.eagle:package:23637/1" value="0.1uf"/>
 <part name="J1" library="Audio Jacks 0.25 inch" deviceset="MONOSW1GND" device="" value=""/>
 <part name="X1" library="con-shiua-chyuan" library_urn="urn:adsk.eagle:library:186" deviceset="SCD-014A" device="" package3d_urn="urn:adsk.eagle:package:10023/1"/>
 <part name="H1" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.0" package3d_urn="urn:adsk.eagle:package:14277/1" value="MOUNT-HOLE3.0"/>
@@ -18018,8 +18018,8 @@ general purpose rectifier, 1 A</description>
 <part name="H3" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.0" package3d_urn="urn:adsk.eagle:package:14277/1" value="MOUNT-HOLE3.0"/>
 <part name="H4" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.0" package3d_urn="urn:adsk.eagle:package:14277/1" value="MOUNT-HOLE3.0"/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="E2,5-6E" package3d_urn="urn:adsk.eagle:package:23430/1" value="100uf"/>
-<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="E2,5-6E" package3d_urn="urn:adsk.eagle:package:23430/1" value="10uf"/>
 <part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4004" device="" package3d_urn="urn:adsk.eagle:package:43336/1" value="1N4001"/>
+<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="050-025X075" package3d_urn="urn:adsk.eagle:package:23637/1" value="10uf"/>
 </parts>
 <sheets>
 <sheet>
@@ -18131,13 +18131,13 @@ general purpose rectifier, 1 A</description>
 <attribute name="NAME" x="6.096" y="46.355" size="1.778" layer="95"/>
 <attribute name="VALUE" x="6.096" y="41.529" size="1.778" layer="96"/>
 </instance>
-<instance part="C2" gate="G$1" x="27.94" y="45.72" smashed="yes">
-<attribute name="NAME" x="28.956" y="46.355" size="1.778" layer="95"/>
-<attribute name="VALUE" x="28.956" y="41.529" size="1.778" layer="96"/>
-</instance>
 <instance part="D1" gate="1" x="-22.86" y="86.36" smashed="yes" rot="R90">
 <attribute name="NAME" x="-23.3426" y="88.9" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-20.5486" y="88.9" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="C7" gate="G$1" x="27.94" y="45.72" smashed="yes">
+<attribute name="NAME" x="28.956" y="46.355" size="1.778" layer="95"/>
+<attribute name="VALUE" x="28.956" y="41.529" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -18193,7 +18193,7 @@ general purpose rectifier, 1 A</description>
 <wire x1="27.94" y1="55.88" x2="27.94" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="55.88" x2="27.94" y2="55.88" width="0.1524" layer="91"/>
 <junction x="27.94" y="55.88"/>
-<pinref part="C2" gate="G$1" pin="+"/>
+<pinref part="C7" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -18270,8 +18270,8 @@ general purpose rectifier, 1 A</description>
 <wire x1="160.02" y1="81.28" x2="160.02" y2="38.1" width="0.1524" layer="91"/>
 <junction x="137.16" y="81.28"/>
 <pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="5.08" y1="40.64" x2="27.94" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="2"/>
+<wire x1="5.08" y1="40.64" x2="27.94" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="40.64" x2="50.8" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="40.64" x2="76.2" y2="40.64" width="0.1524" layer="91"/>
 <junction x="50.8" y="40.64"/>
@@ -18290,8 +18290,6 @@ general purpose rectifier, 1 A</description>
 <wire x1="91.44" y1="93.98" x2="63.5" y2="93.98" width="0.1524" layer="91"/>
 <junction x="91.44" y="86.36"/>
 <pinref part="C1" gate="G$1" pin="-"/>
-<pinref part="C2" gate="G$1" pin="-"/>
-<junction x="27.94" y="40.64"/>
 <pinref part="IC1" gate="P" pin="VSS"/>
 <wire x1="-12.7" y1="40.64" x2="5.08" y2="40.64" width="0.1524" layer="91"/>
 <junction x="5.08" y="40.64"/>
@@ -18304,6 +18302,8 @@ general purpose rectifier, 1 A</description>
 <wire x1="-22.86" y1="40.64" x2="-12.7" y2="40.64" width="0.1524" layer="91"/>
 <junction x="-22.86" y="78.74"/>
 <junction x="-12.7" y="40.64"/>
+<pinref part="C7" gate="G$1" pin="2"/>
+<junction x="27.94" y="40.64"/>
 </segment>
 </net>
 <net name="N$13" class="0">
