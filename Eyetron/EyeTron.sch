@@ -18062,6 +18062,7 @@ Source: Panasonic</description>
 <part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="050-025X075" package3d_urn="urn:adsk.eagle:package:23637/1" value="10uf"/>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="050-025X075" package3d_urn="urn:adsk.eagle:package:23637/1" value="10uf"/>
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="050-025X075" package3d_urn="urn:adsk.eagle:package:23637/1" value="10uf"/>
+<part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -18289,6 +18290,9 @@ Source: Panasonic</description>
 <instance part="C5" gate="G$1" x="-2.54" y="83.82" smashed="yes">
 <attribute name="NAME" x="-1.524" y="84.455" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-1.524" y="79.629" size="1.778" layer="96"/>
+</instance>
+<instance part="GND2" gate="1" x="73.66" y="5.08" smashed="yes">
+<attribute name="VALUE" x="71.12" y="2.54" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -18640,7 +18644,7 @@ Source: Panasonic</description>
 <wire x1="127" y1="86.36" x2="127" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$34" class="0">
+<net name="GND" class="0">
 <segment>
 <pinref part="J1" gate="A" pin="S"/>
 <wire x1="132.08" y1="88.9" x2="132.08" y2="76.2" width="0.1524" layer="91"/>
@@ -18698,7 +18702,7 @@ Source: Panasonic</description>
 <pinref part="IC4" gate="P" pin="VSS"/>
 <wire x1="-45.72" y1="48.26" x2="-48.26" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="76.2" x2="132.08" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="7.62" x2="53.34" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="7.62" x2="73.66" y2="7.62" width="0.1524" layer="91"/>
 <junction x="132.08" y="76.2"/>
 <junction x="53.34" y="7.62"/>
 <pinref part="GND1" gate="1" pin="GND"/>
@@ -18709,6 +18713,9 @@ Source: Panasonic</description>
 <junction x="-2.54" y="48.26"/>
 <pinref part="C5" gate="G$1" pin="2"/>
 <junction x="-2.54" y="78.74"/>
+<pinref part="GND2" gate="1" pin="GND"/>
+<wire x1="73.66" y1="7.62" x2="53.34" y2="7.62" width="0.1524" layer="91"/>
+<junction x="73.66" y="7.62"/>
 </segment>
 </net>
 </nets>
