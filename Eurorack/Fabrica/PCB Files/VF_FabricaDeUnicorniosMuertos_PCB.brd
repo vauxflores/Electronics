@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1858,7 +1858,7 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="30.48" y="96.52" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="1.524" y="66.421" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C050-025X075" package3d_urn="urn:adsk.eagle:package:23637/1" value=".01uf" x="25.4" y="96.52" smashed="yes" rot="R90">
+<element name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C050-025X075" package3d_urn="urn:adsk.eagle:package:23637/1" value="0.01uf" x="25.4" y="96.52" smashed="yes" rot="R90">
 <attribute name="SPICEPREFIX" value="C" x="62.23" y="113.03" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="23.114" y="96.901" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
