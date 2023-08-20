@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -16656,7 +16656,7 @@ Source: www.kingbright.com</description>
 <part name="IC7" library="40xx" library_urn="urn:adsk.eagle:library:80" deviceset="4066" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" value="4066N"/>
 <part name="IC8" library="MusicThingModular" deviceset="MCP6002" device="DIL_LONG" value="TL072"/>
 <part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="050-025X075" package3d_urn="urn:adsk.eagle:package:23637/1" value=".1uf"/>
-<part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="050-025X075" package3d_urn="urn:adsk.eagle:package:23637/1" value=".01uf"/>
+<part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="050-025X075" package3d_urn="urn:adsk.eagle:package:23637/1" value="0.01uf"/>
 <part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="050-025X075" package3d_urn="urn:adsk.eagle:package:23637/1" value="0.01uf"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="050-025X075" package3d_urn="urn:adsk.eagle:package:23637/1" value=".1uf"/>
